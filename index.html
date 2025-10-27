@@ -7,8 +7,8 @@
 </head>
 <style>
 .main-head{background-color:navy; color: white; 
-height: 150px; width: 900px; position: fixed;}
-.conten{display: flex; height: 80px; width: 80px; padding: 5px 10px;}
+height: 150px; width: 1500px; position: fixed;}
+.conten{display: flex; height: 80px; width: 80px; padding: 10px 10px;}
 .text{display: flex; flex-direction: column; padding: 0 10px; font-size: 25px;}
 nav ul {
     list-style-type: none;
@@ -25,19 +25,17 @@ nav ul {
   border-radius: 20px;
   background-color: #f0f2f5;
   color: #555;
-  width: 250px;
-  height: 30px; margin-top: 30px; margin-left: 10px;
+  width: 230px;
+  height: 20px; margin-top: 5px; margin-left: 10px;
 }
 .nav-bar {
   padding: 5px 0px;
 margin-left: 0;}
-
-/* Gaya untuk daftar menu */
 .nav-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex; /* Mengatur item menu secara horizontal */
+  display: flex; flex-direction: row; /* Mengatur item menu secara horizontal */
   gap: 5px; /* Jarak antar item menu */
 }
 
@@ -45,39 +43,32 @@ margin-left: 0;}
 .nav-item {
   position: relative;
 }
-
 .nav-item a {
   color: #ffffff;
   text-decoration: none;
   padding: 10px;
   display: block;
 }
-
 .nav-item a:hover {
   color: #cccccc; /* Warna teks saat kursor mengarah ke menu */
 }
-
 /* Gaya untuk dropdown */
 .dropdown-menu {
   display: none; /* Menyembunyikan menu dropdown secara default */
   position: absolute;
   background-color: #1a2a3a;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); 
 }
-
 /* Gaya untuk tautan di dalam dropdown */
 .dropdown-menu a {
   padding: 12px 16px;
   display: block;
   text-align: left;
 }
-
 .dropdown-menu a:hover {
   background-color: #2a3a4a;
 }
-
 /* Menampilkan dropdown saat kursor mengarah ke item menu */
 .dropdown:hover .dropdown-menu {
   display: block;
@@ -116,6 +107,7 @@ margin-left: 0;}
 </body>
 
 </html>
+
 
 
 
